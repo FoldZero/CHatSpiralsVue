@@ -1,0 +1,41 @@
+{
+  "name": "my-electron-chatgpt-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "r+r": "npm run build && electron .",
+    "r+d": "webpack --mode production && webpack serve --mode development ."
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.1.4",
+    "electron": "^25.2.0",
+    "vue": "^3.2.0",
+    "vue-cli-service": "^5.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.16",
+    "vue-loader": "^17.4.2",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
